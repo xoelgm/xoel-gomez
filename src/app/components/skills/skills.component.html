@@ -1,0 +1,90 @@
+<section class="min-h-screen bg-gray-100 text-gray-900 flex items-center justify-center px-4 py-20" id="skills">
+  <div class="max-w-5xl mx-auto text-center w-full">
+    <h2 class="text-4xl font-bold text-cyan-400 mb-8">{{ 'skills.title' | translate }}</h2>
+
+    <p class="text-lg text-gray-600 mb-8">
+      {{ 'skills.introText' | translate }}
+    </p>
+
+    <div class="relative">
+      <!-- Navigation Buttons -->
+      <button 
+        class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 md:p-4 rounded-full z-10 hidden md:block"
+        (click)="prevSlide()">
+        &#10094;
+      </button>
+      <button 
+        class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 md:p-4 rounded-full z-10 hidden md:block"
+        (click)="nextSlide()">
+        &#10095;
+      </button>
+
+      <!-- Slides Wrapper -->
+      <div class="overflow-hidden">
+        <div class="flex transition-transform duration-500 w-full" [style.transform]="'translateX(' + (-100 * currentSlide) + '%)'">
+          
+          <!-- Slide 1 -->
+          <div class="flex-shrink-0 w-full flex flex-wrap justify-center gap-6 sm:gap-10 px-4">
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/nmap.png" alt="Nmap" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">Nmap</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/wireshark.png" alt="Wireshark" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">Wireshark</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/burp_suite.png" alt="BurpSuite" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">BurpSuite</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/metasploit.png" alt="Metasploit" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">Metasploit</span>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="flex-shrink-0 w-full flex flex-wrap justify-center gap-6 sm:gap-10 px-4">
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/html.png" alt="HTML" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">HTML</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/css.png" alt="CSS" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">CSS</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/javascript.png" alt="JavaScript" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">JavaScript</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/mysql.png" alt="MySQL" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="flex-shrink-0 w-full flex flex-wrap justify-center gap-6 sm:gap-10 px-4">
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/java.png" alt="Java" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">Java</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/python.png" alt="Python" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">Python</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/c.png" alt="C++" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">C++</span>
+            </div>
+            <div class="flex flex-col items-center w-1/2 sm:w-1/4">
+              <img src="assets/php.png" alt="PHP" class="w-12 sm:w-16 h-12 sm:h-16 mb-2 filter grayscale opacity-80"/>
+              <span class="text-sm sm:text-xl font-medium">PHP</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

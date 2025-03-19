@@ -1,0 +1,82 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "education": "Formación",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "contact": "Contacto"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "p1": "Soy un apasionado de la tecnología, la ciberseguridad y la ingeniería informática, con especial interés en el ámbito del hacking ético y el pentesting. Actualmente curso un Máster en Ciberseguridad, donde profundizo en técnicas de análisis de vulnerabilidades, explotación de sistemas, escaneo de servicios y análisis forense.",
+      "p2": "Me considero una persona analítica, proactiva y con una gran capacidad de aprendizaje autónomo. Disfruto desarrollando habilidades ofensivas como la identificación y explotación de vulnerabilidades y la ejecución de pruebas de penetración.",
+      "p3": "Estoy en constante formación, explorando nuevas herramientas y técnicas de intrusión, con el objetivo de convertirme en un profesional altamente capacitado en seguridad ofensiva.",
+      "download_cv": "Descargar CV"
+    },
+    "education": {
+      "title": "Formación",
+      "master": {
+        "title": "Máster en Ciberseguridad y Privacidad",
+        "university": "Universidad Oberta de Catalunya",
+        "description": "Estudiante de Ciberseguridad y Privacidad, con conocimientos en protección de sistemas, análisis forense y hacking ético. Manejo herramientas clave como NMap, Burp Suite, Metasploit y Wireshark. Mi objetivo principal es obtener las certificaciones OSCP y CEH.",
+        "date": "Sep. 2024 - Actualmente"
+      },
+      "degree": {
+        "title": "Grado en Ingeniería Informática",
+        "university": "Universidad de Vigo",
+        "description": "Graduado en Ingeniería Informática con una sólida formación en programación (Java, C, C++, Python, SQL, PHP), análisis de datos (Pentaho, Apache Superset) y desarrollo web (Angular, HTML, CSS, JavaScript). Experiencia en administración de sistemas (Linux, scripting en Bash) y configuración de redes.",
+        "date": "Sep. 2019 - Jun. 2024"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "name": "Nombre",
+      "name_placeholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "email_placeholder": "tuemail@email.com",
+      "message": "Mensaje",
+      "message_placeholder": "Escribe tu mensaje aquí...",
+      "submit": "Enviar mensaje"
+    },
+    "home": {
+    "greeting": "¡Hola! Soy",
+    "subtitle": "Ingeniero Informático & Estudiante de Máster en Ciberseguridad",
+    "description": "Bienvenido a mi portfolio personal. Aquí encontrarás información sobre mi formación, experiencia, habilidades y proyectos.",
+    "cta": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "card": {
+      "title": "Prácticas Desarrollo Web",
+      "company": "Novadigy",
+      "description": "Diseño e implementación de soluciones web a medida, incluyendo análisis de requisitos, arquitectura de bases de datos MySQL y desarrollo frontend con HTML, CSS y JavaScript.",
+      "date": "Sep. 2022 - Ene. 2023"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "introText": "Estas son algunas de las tecnologías que domino y utilizo en mis proyectos.",
+    "cybersecurity": {
+      "title": "Ciberseguridad",
+      "item1": "Pruebas de penetración",
+      "item2": "Criptografía",
+      "item3": "Escaneo de servicios",
+      "item4": "Análisis forense"
+    },
+    "programming": {
+      "title": "Programación",
+      "item1": "Java",
+      "item2": "C++",
+      "item3": "Python",
+      "item4": "PHP"
+    },
+    "webdev": {
+      "title": "Desarrollo Web",
+      "item1": "HTML",
+      "item2": "CSS",
+      "item3": "JavaScript",
+      "item4": "MySQL"
+    }
+  }
+  }  
