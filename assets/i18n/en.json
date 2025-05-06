@@ -1,48 +1,48 @@
 {
-    "navbar": {
-      "home": "Home",
-      "about": "About Me",
-      "education": "Education",
-      "experience": "Experience",
-      "skills": "Skills",
-      "contact": "Contact"
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am passionate about cybersecurity and technology, with a strong focus on offensive security and ethical hacking. I am currently finishing a Master's Degree in Cybersecurity and Privacy, where I deepen my knowledge in pentesting, forensics, privacy, and threat detection.",
+    "p2": "I am familiar with security-oriented Linux environments such as Kali Linux and Parrot OS, and I have hands-on experience through realistic scenarios on platforms like Hack The Box. I constantly explore new tools and techniques to sharpen my skills.",
+    "p3": "Committed to continuous learning, my goal is to join a technical team where I can contribute value and continue growing professionally in the field of cybersecurity.",
+    "download_cv": "Download CV"
+  },
+  "education": {
+    "title": "Education",
+    "master": {
+      "title": "Master’s Degree in Cybersecurity and Privacy",
+      "university": "Universitat Oberta de Catalunya",
+      "description": "Specialized training in pentesting (Nmap, Burp Suite, Metasploit, SQLmap, Hydra, Gobuster, etc.), forensic analysis (Autopsy, Volatility, Wireshark), privacy and network security. Preparing for leading industry certifications.",
+      "date": "Sep. 2024 - Present"
     },
-    "about": {
-      "title": "About Me",
-      "p1": "I am passionate about technology, cybersecurity, and computer engineering, with a special interest in ethical hacking and pentesting. I am currently pursuing a Master's degree in Cybersecurity, where I am deepening my knowledge of vulnerability analysis, system exploitation, service scanning, and forensic analysis.",
-      "p2": "I consider myself an analytical, proactive person with a strong ability for self-directed learning. I enjoy developing offensive skills such as vulnerability identification and exploitation and penetration testing.",
-      "p3": "I am constantly learning, exploring new tools and intrusion techniques with the goal of becoming a highly skilled offensive security professional.",
-      "download_cv": "Download CV"
-    },
-    "education": {
-      "title": "Education",
-      "master": {
-        "title": "Master's in Cybersecurity and Privacy",
-        "university": "Universitat Oberta de Catalunya",
-        "description": "Student of Cybersecurity and Privacy, with knowledge in system protection, forensic analysis, and ethical hacking. I work with tools like NMap, Burp Suite, Metasploit, and Wireshark. My main goal is to achieve OSCP and CEH certifications.",
-        "date": "Sep. 2024 - Present"
-      },
-      "degree": {
-        "title": "Bachelor's in Computer Engineering",
-        "university": "University of Vigo",
-        "description": "Graduated in Computer Engineering with a strong background in programming (Java, C, C++, Python, SQL, PHP), data analysis (Pentaho, Apache Superset), and web development (Angular, HTML, CSS, JavaScript). Experience in system administration (Linux, Bash scripting) and network configuration.",
-        "date": "Sep. 2019 - Jun. 2024"
-      }
-    },
-    "contact": {
-      "title": "Contact",
-      "name": "Name",
-      "name_placeholder": "Your name",
-      "email": "Email",
-      "email_placeholder": "youremail@email.com",
-      "message": "Message",
-      "message_placeholder": "Write your message here...",
-      "submit": "Send message"
-    },
-    "home": {
-    "greeting": "Hello! I'm",
-    "subtitle": "Computer Engineer & Master's in Cybersecurity Student",
-    "description": "Welcome to my personal portfolio. Here you'll find information about my education, experience, skills, and projects.",
+    "degree": {
+      "title": "Bachelor’s Degree in Computer Engineering",
+      "university": "University of Vigo",
+      "description": "Graduate in Computer Engineering with solid background in programming (Java, C, C++, Python), web development (Angular, HTML, CSS, JavaScript), data analysis (Pentaho, Apache Superset), and database systems (MySQL).",
+      "date": "Sep. 2019 - Jun. 2024"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "name_placeholder": "Your name",
+    "email": "Email",
+    "email_placeholder": "youremail@email.com",
+    "message": "Message",
+    "message_placeholder": "Write your message here...",
+    "submit": "Send Message"
+  },
+  "home": {
+    "greeting": "Hi! I'm",
+    "subtitle": "Computer Engineer & Cybersecurity Specialist",
+    "description": "Welcome to my personal portfolio. Here you can explore my education, experience, technical skills and projects.",
     "cta": "Contact Me"
   },
   "experience": {
@@ -56,13 +56,13 @@
   },
   "skills": {
     "title": "Skills",
-    "introText": "These are some of the technologies I master and use in my projects.",
+    "introText": "These are some of the technologies I work with in my projects.",
     "cybersecurity": {
       "title": "Cybersecurity",
       "item1": "Penetration Testing",
       "item2": "Cryptography",
       "item3": "Service Scanning",
-      "item4": "Forensic Analysis"
+      "item4": "Digital Forensics"
     },
     "programming": {
       "title": "Programming",
@@ -79,4 +79,4 @@
       "item4": "MySQL"
     }
   }
-  }  
+}

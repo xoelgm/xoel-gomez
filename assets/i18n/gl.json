@@ -1,56 +1,56 @@
 {
-    "navbar": {
-      "home": "Inicio",
-      "about": "Sobre min",
-      "education": "Formación",
-      "experience": "Experiencia",
-      "skills": "Habilidades",
-      "contact": "Contacto"
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre min",
+    "education": "Formación",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre min",
+    "p1": "Son un apaixonado da ciberseguridade e a tecnoloxía, con especial interese na seguridade ofensiva e o hacking ético. Actualmente estou rematando un Máster en Ciberseguridade e Privacidade, onde aprofundo en técnicas de pentesting, análise forense, privacidade e detección de ameazas.",
+    "p2": "Estou familiarizado con contornos Linux orientados á seguridade como Kali Linux e Parrot OS, e teño experiencia práctica en escenarios realistas a través de plataformas como Hack The Box. Exploro constantemente novas ferramentas e técnicas para mellorar as miñas habilidades.",
+    "p3": "Comprometido co aprendizaxe continuo, o meu obxectivo é incorporarme a un equipo técnico onde poida achegar valor e seguir medrando profesionalmente no mundo da ciberseguridade.",
+    "download_cv": "Descargar CV"
+  },
+  "education": {
+    "title": "Formación",
+    "master": {
+      "title": "Máster en Ciberseguridade e Privacidade",
+      "university": "Universitat Oberta de Catalunya",
+      "description": "Formación especializada en pentesting (Nmap, Burp Suite, Metasploit, SQLmap, Hydra, Gobuster, etc.), análise forense (Autopsy, Volatility, Wireshark), privacidade e seguridade en redes. Co obxectivo de prepararme para as certificacións máis recoñecidas do sector.",
+      "date": "Set. 2024 - Actualmente"
     },
-    "about": {
-      "title": "Sobre min",
-      "p1": "Son un apaixonado da tecnoloxía, da ciberseguridade e da enxeñaría informática, con especial interese no ámbito do hacking ético e o pentesting. Actualmente curso un Máster en Ciberseguridade, onde afondo en técnicas de análise de vulnerabilidades, explotación de sistemas, escaneo de servizos e análise forense.",
-      "p2": "Considérome unha persoa analítica, proactiva e cunha gran capacidade de aprendizaxe autónomo. Gústame desenvolver habilidades ofensivas como a identificación e explotación de vulnerabilidades e a execución de probas de penetración.",
-      "p3": "Estou en constante formación, explorando novas ferramentas e técnicas de intrusión co obxectivo de converterme nun profesional altamente capacitado en seguridade ofensiva.",
-      "download_cv": "Descargar CV"
-    },
-    "education": {
-      "title": "Formación",
-      "master": {
-        "title": "Máster en Ciberseguridade e Privacidade",
-        "university": "Universitat Oberta de Catalunya",
-        "description": "Estudante de Ciberseguridade e Privacidade, con coñecementos en protección de sistemas, análise forense e hacking ético. Manexo ferramentas clave como NMap, Burp Suite, Metasploit e Wireshark. O meu obxectivo principal é obter as certificacións OSCP e CEH.",
-        "date": "Set. 2024 - Actualmente"
-      },
-      "degree": {
-        "title": "Grao en Enxeñaría Informática",
-        "university": "Universidade de Vigo",
-        "description": "Graduado en Enxeñaría Informática cunha sólida formación en programación (Java, C, C++, Python, SQL, PHP), análise de datos (Pentaho, Apache Superset) e desenvolvemento web (Angular, HTML, CSS, JavaScript). Experiencia en administración de sistemas (Linux, scripting en Bash) e configuración de redes.",
-        "date": "Set. 2019 - Xuñ. 2024"
-      }
-    },
-    "contact": {
-      "title": "Contacto",
-      "name": "Nome",
-      "name_placeholder": "O teu nome",
-      "email": "Correo electrónico",
-      "email_placeholder": "oteucorreo@correo.com",
-      "message": "Mensaxe",
-      "message_placeholder": "Escribe aquí a túa mensaxe...",
-      "submit": "Enviar mensaxe"
-    },
-    "home": {
-    "greeting": "¡Ola! Son",
-    "subtitle": "Enxeñeiro Informático & Estudante de Máster en Ciberseguridade",
-    "description": "Benvido ao meu portfolio persoal. Aquí atoparás información sobre a miña formación, experiencia, habilidades e proxectos.",
+    "degree": {
+      "title": "Grao en Enxeñaría Informática",
+      "university": "Universidade de Vigo",
+      "description": "Graduado en Enxeñaría Informática cunha sólida formación en programación (Java, C, C++, Python), desenvolvemento web (Angular, HTML, CSS, JavaScript), análise de datos (Pentaho, Apache Superset) e bases de datos (MySQL).",
+      "date": "Set. 2019 - Xuño 2024"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nome",
+    "name_placeholder": "O teu nome",
+    "email": "Correo electrónico",
+    "email_placeholder": "teuemail@email.com",
+    "message": "Mensaxe",
+    "message_placeholder": "Escribe a túa mensaxe aquí...",
+    "submit": "Enviar mensaxe"
+  },
+  "home": {
+    "greeting": "Ola! Son",
+    "subtitle": "Enxeñeiro Informático & Especialista en Ciberseguridade",
+    "description": "Benvido ao meu portfolio persoal. Aquí poderás coñecer a miña formación, experiencia, habilidades técnicas e proxectos.",
     "cta": "Contacta comigo"
   },
   "experience": {
     "title": "Experiencia",
     "card": {
-      "title": "Prácticas Desenvolvemento Web",
+      "title": "Prácticas de Desenvolvemento Web",
       "company": "Novadigy",
-      "description": "Deseño e implementación de solucións web a medida, incluindo análise de requisitos, arquitectura de bases de datos MySQL e desenvolvemento frontend con HTML, CSS e JavaScript.",
+      "description": "Deseño e implementación de solucións web a medida, incluíndo análise de requisitos, arquitectura de bases de datos MySQL e desenvolvemento frontend con HTML, CSS e JavaScript.",
       "date": "Set. 2022 - Xan. 2023"
     }
   },
@@ -79,4 +79,4 @@
       "item4": "MySQL"
     }
   }
-  }  
+}
