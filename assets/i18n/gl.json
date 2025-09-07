@@ -1,0 +1,88 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre min",
+      "education": "Formación",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "contact": "Contacto"
+    },
+    "about": {
+      "title": "Sobre min",
+      "p1": "Son un apaixonado da tecnoloxía e da ciberseguridade, actualmente traballando en Altia como consultor de ciberseguridade e pentester ofensivo, aplicando os meus coñecementos en proxectos de seguridade reais.",
+      "p2": "Considero que son unha persoa analítica, proactiva e con gran capacidade de aprendizaxe autónoma, desfrutando especialmente do desenvolvemento de habilidades ofensivas, como a identificación e explotación de vulnerabilidades, así como a realización de probas de penetración.",
+      "p3": "Estou en constante formación, explorando novas ferramentas e técnicas de intrusión, co obxectivo de converterme nun profesional altamente capacitado en seguridade ofensiva e aportar valor en contornos de alta seguridade.",
+      "download_cv": "Descargar CV"
+    },
+    "education": {
+      "title": "Formación",
+      "master": {
+        "title": "Máster en Ciberseguridade e Privacidade",
+        "university": "Universitat Oberta de Catalunya",
+        "description": "Graduado en Máster de Ciberseguridade e Privacidade, con experiencia en protección de sistemas, análise forense e hacking ético. Manexo ferramentas clave como NMap, Burp Suite, Metasploit e Wireshark. O meu próximo obxectivo é obter as certificacións CEH e OSCP.",
+        "date": "Set. 2024 - Xuñ. 2025"
+      },
+      "degree": {
+        "title": "Grao en Enxeñaría Informática",
+        "university": "Universidade de Vigo",
+        "description": "Graduado en Enxeñaría Informática cunha sólida formación en programación (Java, C, C++, Python, SQL, PHP), análise de datos (Pentaho, Apache Superset) e desenvolvemento web (Angular, HTML, CSS, JavaScript). Experiencia en administración de sistemas (Linux, scripting en Bash) e configuración de redes.",
+        "date": "Set. 2019 - Xuñ. 2024"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "name": "Nome",
+      "name_placeholder": "Nome",
+      "email": "Correo electrónico",
+      "email_placeholder": "Correo electrónico",
+      "message": "Mensaxe",
+      "message_placeholder": "Escribe aquí a túa mensaxe...",
+      "submit": "Enviar mensaxe"
+    },
+    "home": {
+    "greeting": "¡Ola! Son ",
+    "subtitle": "Enxeñeiro Informático & Especialista en Ciberseguridade",
+    "description": "Benvido ao meu portfolio persoal. Aquí atoparás información sobre a miña formación, experiencia, habilidades e proxectos.",
+    "cta": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "card": {
+      "title": "Prácticas Desenvolvemento Web",
+      "company": "Novadigy",
+      "description": "Deseño e implementación de solucións web a medida, incluindo análise de requisitos, arquitectura de bases de datos MySQL e desenvolvemento frontend con HTML, CSS e JavaScript.",
+      "date": "Set. 2022 - Xan. 2023"
+    },
+    "card2": {
+      "title": "Consultor en Ciberseguridade e Pentesting",
+      "company": "Altia",
+      "description": "Actualmente traballo en Altia como consultor en ciberseguridade, especializándome en pentesting ofensivo e análise de vulnerabilidades.",
+      "date": "Xuño 2025 - Actualmente"
+      } 
+  },
+  "skills": {
+    "title": "Habilidades",
+    "introText": "Estas son algunhas das tecnoloxías que domino e utilizo nos meus proxectos.",
+    "cybersecurity": {
+      "title": "Ciberseguridade",
+      "item1": "Probas de penetración",
+      "item2": "Criptografía",
+      "item3": "Escaneo de servizos",
+      "item4": "Análise forense"
+    },
+    "programming": {
+      "title": "Programación",
+      "item1": "Java",
+      "item2": "C++",
+      "item3": "Python",
+      "item4": "PHP"
+    },
+    "webdev": {
+      "title": "Desenvolvemento Web",
+      "item1": "HTML",
+      "item2": "CSS",
+      "item3": "JavaScript",
+      "item4": "MySQL"
+    }
+  }
+  }  

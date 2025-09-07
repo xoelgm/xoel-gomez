@@ -1,0 +1,88 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "education": "Formación",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "contact": "Contacto"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "p1": "Soy un apasionado de la tecnología y la ciberseguridad, actualmente trabajando en Altia como consultor de ciberseguridad y pentester en el área ofensiva, donde aplico mis conocimientos en proyectos reales de seguridad.",
+      "p2": "Me considero una persona analítica, proactiva y con gran capacidad de aprendizaje autónomo, disfrutando especialmente del desarrollo de habilidades ofensivas, como la identificación y explotación de vulnerabilidades, así como la ejecución de pruebas de penetración.",
+      "p3": "Estoy en constante formación, explorando nuevas herramientas y técnicas de intrusión, con el objetivo de convertirme en un profesional altamente capacitado en seguridad ofensiva y aportar valor en entornos de alta seguridad.",
+      "download_cv": "Descargar CV"
+    },
+    "education": {
+      "title": "Formación",
+      "master": {
+        "title": "Máster en Ciberseguridad y Privacidad",
+        "university": "Universidad Oberta de Catalunya",
+        "description": "Graduado en Máster de Ciberseguridad y Privacidad, con experiencia en protección de sistemas, análisis forense y hacking ético. Manejo herramientas clave como NMap, Burp Suite, Metasploit y Wireshark. Mi siguiente objetivo es obtener las certificaciones CEH y OSCP.",
+        "date": "Sep. 2024 - Jun. 2025"
+      },
+      "degree": {
+        "title": "Grado en Ingeniería Informática",
+        "university": "Universidad de Vigo",
+        "description": "Graduado en Ingeniería Informática con una sólida formación en programación (Java, C, C++, Python, SQL, PHP), análisis de datos (Pentaho, Apache Superset) y desarrollo web (Angular, HTML, CSS, JavaScript). Experiencia en administración de sistemas (Linux, scripting en Bash) y configuración de redes.",
+        "date": "Sep. 2019 - Jun. 2024"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "name": "Nombre",
+      "name_placeholder": "Nombre",
+      "email": "Correo electrónico",
+      "email_placeholder": "Correo electrónico",
+      "message": "Mensaje",
+      "message_placeholder": "Escribe tu mensaje aquí...",
+      "submit": "Enviar mensaje"
+    },
+    "home": {
+    "greeting": "¡Hola! Soy ",
+    "subtitle": "Ingeniero Informático & Especialista en Ciberseguridad",
+    "description": "Bienvenido a mi portfolio personal. Aquí encontrarás información sobre mi formación, experiencia, habilidades y proyectos.",
+    "cta": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "card": {
+      "title": "Prácticas Desarrollo Web",
+      "company": "Novadigy",
+      "description": "Diseño e implementación de soluciones web a medida, incluyendo análisis de requisitos, arquitectura de bases de datos MySQL y desarrollo frontend con HTML, CSS y JavaScript.",
+      "date": "Sep. 2022 - Ene. 2023"
+    },
+    "card2": {
+        "title": "Consultor en Ciberseguridad y Pentesting",
+        "company": "Altia",
+        "description": "Actualmente trabajo en Altia como consultor en ciberseguridad, especializándome en pentesting ofensivo y análisis de vulnerabilidades.",
+        "date": "Jun. 2025 - Actualmente"
+      }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "introText": "Estas son algunas de las tecnologías que domino y utilizo en mis proyectos.",
+    "cybersecurity": {
+      "title": "Ciberseguridad",
+      "item1": "Pruebas de penetración",
+      "item2": "Criptografía",
+      "item3": "Escaneo de servicios",
+      "item4": "Análisis forense"
+    },
+    "programming": {
+      "title": "Programación",
+      "item1": "Java",
+      "item2": "C++",
+      "item3": "Python",
+      "item4": "PHP"
+    },
+    "webdev": {
+      "title": "Desarrollo Web",
+      "item1": "HTML",
+      "item2": "CSS",
+      "item3": "JavaScript",
+      "item4": "MySQL"
+    }
+  }
+  }  
