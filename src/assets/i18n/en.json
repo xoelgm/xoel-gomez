@@ -1,0 +1,88 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About Me",
+      "education": "Education",
+      "experience": "Experience",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "about": {
+      "title": "About Me",
+      "p1": "I am passionate about technology and cybersecurity, currently working at Altia as a cybersecurity consultant and offensive pentester, applying my knowledge in real-world security projects.",
+      "p2": "I consider myself analytical, proactive, and highly self-motivated, especially enjoying the development of offensive skills, such as identifying and exploiting vulnerabilities, as well as conducting penetration tests.",
+      "p3": "I am continuously learning, exploring new tools and intrusion techniques, with the goal of becoming a highly skilled offensive security professional and adding value in high-security environments.",
+      "download_cv": "Download CV"
+    },
+    "education": {
+      "title": "Education",
+      "master": {
+        "title": "Master's in Cybersecurity and Privacy",
+        "university": "Universitat Oberta de Catalunya",
+        "description": "Master's graduate in Cybersecurity and Privacy, with experience in system protection, forensic analysis, and ethical hacking. Proficient in key tools such as NMap, Burp Suite, Metasploit, and Wireshark. My next goal is to obtain the CEH and OSCP certifications.",
+        "date": "Sep. 2024 - Jun. 2025"
+      },
+      "degree": {
+        "title": "Bachelor's in Computer Engineering",
+        "university": "University of Vigo",
+        "description": "Graduated in Computer Engineering with a strong background in programming (Java, C, C++, Python, SQL, PHP), data analysis (Pentaho, Apache Superset), and web development (Angular, HTML, CSS, JavaScript). Experience in system administration (Linux, Bash scripting) and network configuration.",
+        "date": "Sep. 2019 - Jun. 2024"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "name": "Name",
+      "name_placeholder": "Name",
+      "email": "Email",
+      "email_placeholder": "Email",
+      "message": "Message",
+      "message_placeholder": "Write your message here...",
+      "submit": "Send message"
+    },
+    "home": {
+    "greeting": "Hello! I'm ",
+    "subtitle": "Computer Engineer & Cybersecurity Specialist",
+    "description": "Welcome to my personal portfolio. Here you'll find information about my education, experience, skills, and projects.",
+    "cta": "Contact me"
+  },
+  "experience": {
+    "title": "Experience",
+    "card": {
+      "title": "Web Development Internship",
+      "company": "Novadigy",
+      "description": "Design and implementation of custom web solutions, including requirements analysis, MySQL database architecture, and frontend development with HTML, CSS, and JavaScript.",
+      "date": "Sep. 2022 - Jan. 2023"
+    },
+    "card2": {
+      "title": "Cybersecurity Consultant and Pentesting",
+      "company": "Altia",
+      "description": "I currently work at Altia as a cybersecurity consultant, specializing in offensive pentesting and vulnerability analysis.",
+      "date": "Jun 2025 - Present"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "introText": "These are some of the technologies I master and use in my projects.",
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "item1": "Penetration Testing",
+      "item2": "Cryptography",
+      "item3": "Service Scanning",
+      "item4": "Forensic Analysis"
+    },
+    "programming": {
+      "title": "Programming",
+      "item1": "Java",
+      "item2": "C++",
+      "item3": "Python",
+      "item4": "PHP"
+    },
+    "webdev": {
+      "title": "Web Development",
+      "item1": "HTML",
+      "item2": "CSS",
+      "item3": "JavaScript",
+      "item4": "MySQL"
+    }
+  }
+  }  

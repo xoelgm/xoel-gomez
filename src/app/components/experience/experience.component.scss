@@ -1,0 +1,112 @@
+.experience-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+  color: #0d0d0d;
+  font-family: 'Share Tech Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+
+  .section-title {
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .exp-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #00bcd4;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.3);
+    text-align: left;
+    color: #333;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.6);
+      border-color: #00fff7;
+      color: #000;
+    }
+
+    .exp-title {
+      font-size: 1.5rem;
+      color: #00bcd4;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .exp-company,
+    .exp-date {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+
+    .exp-description {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  /* Tablet */
+  @media (max-width: 992px) {
+    padding: 3rem 1.5rem;
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .exp-card {
+      padding: 1.2rem;
+
+      .exp-title {
+        font-size: 1.4rem;
+      }
+
+      .exp-description {
+        font-size: 0.95rem;
+      }
+    }
+  }
+
+  /* Móvil */
+  @media (max-width: 640px) {
+    padding: 2rem 1rem;
+
+    .section-title {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .exp-card {
+      width: 90%;          // más estrechas
+      max-width: 280px;    // límite menor
+      padding: 0.6rem 0.8rem; // menos padding
+      text-align: center;
+      margin-bottom: 1rem;
+
+      .exp-title {
+        font-size: 1rem;
+      }
+
+      .exp-company,
+      .exp-date {
+        font-size: 0.75rem;
+      }
+
+      .exp-description {
+        font-size: 0.75rem;
+        line-height: 1.3;
+      }
+    }
+  }
+}

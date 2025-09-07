@@ -1,0 +1,31 @@
+<!-- Siempre mostramos el home, que contiene la lluvia -->
+<div id="home">
+  <app-home (matrixComplete)="onMatrixComplete()"></app-home>
+</div>
+
+<!-- Navbar y resto del contenido solo cuando termina la lluvia -->
+<div *ngIf="showContent">
+  <app-navbar></app-navbar>
+
+  <div id="about">
+    <app-about></app-about>
+  </div>
+  <div id="experience">
+    <app-experience></app-experience>
+  </div>
+  <div id="education">
+    <app-education></app-education>
+  </div>
+  <div id="skills">
+    <app-skills></app-skills>
+  </div>
+  <div id="contact">
+    <app-contact></app-contact>
+  </div>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p class="text-sm">
+      © 2025 Created by <strong>Xoel Gómez</strong>
+    </p>
+  </footer>
+</div>

@@ -1,0 +1,39 @@
+<section class="about-section min-h-screen flex items-center justify-center relative overflow-hidden" id="about">
+  <!-- Opcional: partículas o letras cayendo tipo matrix -->
+  <div class="matrix-bg">
+    <span *ngFor="let particle of particles" 
+          [ngStyle]="{'top.%': particle.top, 'left.%': particle.left, 'width.px': particle.size, 'height.px': particle.size, 'opacity': particle.opacity}">
+    </span>
+  </div>
+
+  <div class="content max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 px-4 sm:px-6 py-12">
+    
+    <!-- Foto -->
+    <div class="photo w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-lg">
+      <img src="assets/foto_xoel.jpg" alt="Foto de Xoel" class="w-full h-full object-cover" />
+    </div>
+
+    <!-- Texto -->
+    <div class="text flex-1 text-center md:text-left space-y-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-cyan-400">
+        {{ 'about.title' | translate }}
+      </h2>
+      <p class="text-base sm:text-lg text-gray-300">
+        {{ 'about.p1' | translate }}
+      </p>
+      <p class="text-base sm:text-lg text-gray-300">
+        {{ 'about.p2' | translate }}
+      </p>
+      <p class="text-base sm:text-lg text-gray-300">
+        {{ 'about.p3' | translate }}
+      </p>
+
+      <div class="mt-10">
+        <a href="assets/cv_xoel.pdf" download="CV Xoel Gómez"
+           class="btn-cv inline-block px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition-all duration-300">
+          {{ 'about.download_cv' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

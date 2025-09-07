@@ -1,0 +1,28 @@
+<section class="home-section min-h-screen flex items-center justify-center relative overflow-hidden">
+
+  <!-- Canvas de Matrix Rain -->
+  <canvas #matrixCanvas class="matrix-canvas absolute inset-0 w-full h-full"
+          [class.visible]="showMatrixRain"
+          [class.hidden]="!showMatrixRain"></canvas>
+
+  <!-- Contenido principal -->
+  <div class="content text-center z-20"
+       [class.opacity-0]="!contentVisible"
+       [class.opacity-100]="contentVisible">
+    <h1 class="text-2xl sm:text-4xl font-bold mb-6">
+      {{ 'home.greeting' | translate }} <span class="matrix-name text-cyan-400">{{ nameText }}</span>
+    </h1>
+
+    <h2 class="text-lg sm:text-2xl text-cyan-400 mb-8">
+      {{ 'home.subtitle' | translate }}
+    </h2>
+    <p class="text-base sm:text-lg text-gray-700 mb-10 max-w-6xl mx-auto text-center">
+      {{ 'home.description' | translate }}
+    </p>
+
+    <a href="#contact" class="btn-contacto inline-block font-semibold px-6 py-3 rounded-xl transition duration-300">
+      {{ 'home.cta' | translate }}
+    </a>
+  </div>
+
+</section>

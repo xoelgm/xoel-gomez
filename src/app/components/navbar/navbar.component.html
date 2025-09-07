@@ -1,0 +1,57 @@
+<nav class="fixed top-0 left-0 w-full bg-white text-gray-900 shadow-md z-50 font-mono">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+      
+    <img src="assets/logo_x.png" alt="Logo" class="w-10 h-10 sm:w-12 sm:h-12 object-contain">
+
+    <!-- Botón hamburguesa (solo en móvil) -->
+    <button 
+      class="md:hidden flex flex-col justify-between w-6 h-5 focus:outline-none"
+      (click)="menuOpen = !menuOpen">
+      <span class="block w-full h-0.5 bg-gray-900"></span>
+      <span class="block w-full h-0.5 bg-gray-900"></span>
+      <span class="block w-full h-0.5 bg-gray-900"></span>
+    </button>
+
+    <!-- Menú escritorio -->
+    <ul class="hidden md:flex space-x-4 sm:space-x-6 font-medium">
+      <li><a (click)="scrollToSection('home')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.home' | translate }}</a></li>
+      <li><a (click)="scrollToSection('about')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.about' | translate }}</a></li>
+      <li><a (click)="scrollToSection('experience')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.experience' | translate }}</a></li>
+      <li><a (click)="scrollToSection('education')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.education' | translate }}</a></li>
+      <li><a (click)="scrollToSection('skills')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.skills' | translate }}</a></li>
+      <li><a (click)="scrollToSection('contact')" class="hover:text-cyan-400 transition cursor-pointer">{{ 'navbar.contact' | translate }}</a></li>
+    </ul>
+
+
+    <!-- Selector idioma escritorio -->
+    <div class="ml-4 hidden md:block">
+      <select class="bg-gray-200 text-gray-900 border border-gray-300 px-2 py-1 rounded"
+              (change)="changeLang($event)" [value]="currentLang">
+        <option value="es">ES</option>
+        <option value="gl">GL</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Menú móvil desplegable -->
+  <div class="md:hidden bg-white shadow-lg px-4 py-4 space-y-3 font-medium transition-all duration-300"
+       [ngClass]="{'block': menuOpen, 'hidden': !menuOpen}">
+    <a (click)="scrollToSection('home')" class="block hover:text-cyan-400 transition">{{ 'navbar.home' | translate }}</a>
+    <a (click)="scrollToSection('about')" class="block hover:text-cyan-400 transition">{{ 'navbar.about' | translate }}</a>
+    <a (click)="scrollToSection('experience')" class="block hover:text-cyan-400 transition">{{ 'navbar.experience' | translate }}</a>
+    <a (click)="scrollToSection('education')" class="block hover:text-cyan-400 transition">{{ 'navbar.education' | translate }}</a>
+    <a (click)="scrollToSection('skills')" class="block hover:text-cyan-400 transition">{{ 'navbar.skills' | translate }}</a>
+    <a (click)="scrollToSection('contact')" class="block hover:text-cyan-400 transition">{{ 'navbar.contact' | translate }}</a>
+
+    <!-- Selector idioma en móvil -->
+    <div class="pt-3 border-t border-gray-200">
+      <select class="w-full bg-gray-200 text-gray-900 border border-gray-300 px-2 py-1 rounded"
+              (change)="changeLang($event)" [value]="currentLang">
+        <option value="es">ES</option>
+        <option value="gl">GL</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </div>
+</nav>
